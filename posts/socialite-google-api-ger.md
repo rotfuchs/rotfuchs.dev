@@ -67,7 +67,7 @@ $service = new \Google_Service_Fitness($client);
 $response = $service->users_dataset->aggregate($userId, $postBody);
 ```
 
-Als Ausgabe sollte nun ein großes Objekt mit den gewünschten Informationen zurückgegeben wird. Aufgrund der größe der Rückgabeinformationen ist es ratsam nicht sofort alle Daten auf einmal auszulesen, sofern man den Intervall wie in meinem Beispiel auf einen täglichen Wert setzt.
+Als Ausgabe sollte nun ein großes Objekt mit den gewünschten Informationen zurückgegeben wird. Aufgrund der Größe der Rückgabeinformationen ist es ratsam nicht sofort alle Daten auf einmal auszulesen, sofern man den Intervall wie in meinem Beispiel auf einen täglichen Wert setzt.
 
 ```
 object(Google_Service_Fitness_DataPoint)[345]
